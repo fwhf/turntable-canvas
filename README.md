@@ -16,7 +16,7 @@ import turntableCanvas from 'turntable-canvas';
 
 ```
 <template>
-	<div ref="xxx"></div>
+	<div ref="turntableCanvas"></div>
 </template>
 <script>
 export default {
@@ -82,7 +82,7 @@ export default {
 	      },
 	    ]
 	}
-	var turntableCanvas = new this.$turntableCanvas(this.$refs.xxx,TurntableCanvasConfig,(cb)=>{
+	var turntableCanvas = new this.$turntableCanvas(this.$refs.turntableCanvas,TurntableCanvasConfig,(cb)=>{
 			//此处放异步请求返回获得了哪个奖项
 			console.log('请求中...')
 			setTimeout(()=>{
