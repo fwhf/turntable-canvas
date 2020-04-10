@@ -163,4 +163,4 @@ class TurntableCanvas{
 	    return Math.floor(Math.random() * c + n);
 	}
 }
-//export default TurntableCanvas
+export default TurntableCanvas
