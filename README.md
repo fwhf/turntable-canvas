@@ -5,7 +5,7 @@ Vue中使用方法及配置
 
 1.npm下载
 ```
-npm i wx-turntable-canvas
+npm i turntable-canvas
 ```  
 2.import
 ```
