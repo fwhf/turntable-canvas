@@ -1,0 +1,11 @@
+{
+  "name": "turntable-canvas",
+  "version": "1.0.3",
+  "description": "",
+  "main": "js/turntable-canvas.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
