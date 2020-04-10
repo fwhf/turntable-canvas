@@ -51,36 +51,36 @@ export default {
 			textStyle :  "16px Georgia",
 			textTop :  14,
 			imgTop : 40,
-    		imgWidth : 32,
-    		imgHeight : 32
+			imgWidth : 32,
+			imgHeight : 32
 		},
 		//奖品列表
-	    prizeList: [
-	      {
-	        text: '奖品一',
-	        imgurl: 'http://blog.fwhf.xyz/img/turntable-canvas/koushuidou.png'
-	      },
-	      {
-	        text: '奖品二',
-	        imgurl: 'http://blog.fwhf.xyz/img/turntable-canvas/maozi.png'
-	      },
-	      {
-	        text: '奖品一一',
-	        imgurl: 'http://blog.fwhf.xyz/img/turntable-canvas/naiping.png'
-	      },
-	      {
-	        text: '奖品',
-	        imgurl: 'http://blog.fwhf.xyz/img/turntable-canvas/shuibei.png'
-	      },
-	      {
-	        text: '奖',
-	        imgurl: 'http://blog.fwhf.xyz/img/turntable-canvas/xiaohuangya.png'
-	      },
-	      {
-	        text: '奖123',
-	        imgurl: 'http://blog.fwhf.xyz/img/turntable-canvas/yingerche.png'
-	      },
-	    ]
+		prizeList: [
+		      {
+			text: '奖品一',
+			imgurl: 'http://blog.fwhf.xyz/img/turntable-canvas/koushuidou.png'
+		      },
+		      {
+			text: '奖品二',
+			imgurl: 'http://blog.fwhf.xyz/img/turntable-canvas/maozi.png'
+		      },
+		      {
+			text: '奖品一一',
+			imgurl: 'http://blog.fwhf.xyz/img/turntable-canvas/naiping.png'
+		      },
+		      {
+			text: '奖品',
+			imgurl: 'http://blog.fwhf.xyz/img/turntable-canvas/shuibei.png'
+		      },
+		      {
+			text: '奖',
+			imgurl: 'http://blog.fwhf.xyz/img/turntable-canvas/xiaohuangya.png'
+		      },
+		      {
+			text: '奖123',
+			imgurl: 'http://blog.fwhf.xyz/img/turntable-canvas/yingerche.png'
+		      },
+		]
 	}
 	var turntableCanvas = new this.$turntableCanvas(this.$refs.turntableCanvas,TurntableCanvasConfig,(cb)=>{
 			//此处放异步请求返回获得了哪个奖项
