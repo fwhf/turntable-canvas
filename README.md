@@ -39,7 +39,6 @@ export default {
 			width : 20,
 			color : 'rgb(255,185,74)',
 			lampNum : 12,
-			twinkleType : 0,
 			lampColor : ['rgb(255,255,255)','rgb(255,234,119)'],
 			lampRadius : 3,
 			twinkleTime : 500
