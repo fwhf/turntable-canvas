@@ -1,11 +1,37 @@
 {
-  "name": "turntable-canvas",
-  "version": "1.0.3",
+  "_from": "turntable-canvas",
+  "_id": "turntable-canvas@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-53DC1Sj9g+vWKdyEfYfwRFJKwDz28kJ6+BBfUEFIYkwcbdiuPc4uvUr/USCw1tAKC9MYg2id34GybMZHeNOMhw==",
+  "_location": "/turntable-canvas",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "turntable-canvas",
+    "name": "turntable-canvas",
+    "escapedName": "turntable-canvas",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/turntable-canvas/-/turntable-canvas-1.0.4.tgz",
+  "_shasum": "8b00aeaa3ebb5828fba3e90ff6ffffddbc405998",
+  "_spec": "turntable-canvas",
+  "_where": "C:\\Users\\fwhf-pc\\Desktop\\新建文件夹",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "",
+  "license": "ISC",
   "main": "js/turntable-canvas.min.js",
+  "name": "turntable-canvas",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "version": "1.0.8"
 }

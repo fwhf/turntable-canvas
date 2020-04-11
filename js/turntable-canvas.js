@@ -36,22 +36,26 @@ class TurntableCanvas{
             i++;
           }
         }
+
         this.rotate = 180 / this.prizeList.length - this.deviation;
         this.get = get;
         this.cb = cb;
 		this.init();
 	}
 	init(){
+		this.time = new Date().getTime();
 		this.dom.classList.add("turntable-canvas");
 		this.dom.style['width'] = this.width + 'px';
 		this.dom.style['height'] = this.height + 'px';
-		this.dom.innerHTML = '<canvas class="bg" width="' + this.width + '" height="' + this.height + '"></canvas><canvas class="content" width="' + this.width + '" height="' + this.height + '"></canvas><img class="zhizhen" width="' + this.zhizhen.width + '"src="' + this.zhizhen.src + '">';
+		this.dom.innerHTML = '<canvas class="turntable-canvas-bg ' + this.time + 'bg" width="' + this.width + '" height="' + this.height + '"></canvas><canvas class="turntable-canvas-content ' + this.time + 'content" width="' + this.width + '" height="' + this.height + '"></canvas><img class="turntable-canvas-zhizhen" width="' + this.zhizhen.width + '"src="' + this.zhizhen.src + '">';
 		
-		this.bgCanvas = document.getElementsByClassName('bg')[0];
+		this.bgCanvas = document.getElementsByClassName(this.time+'bg')[0];
 		this.bgCanvasContext = this.bgCanvas.getContext('2d');
-		this.contentCanvas = document.getElementsByClassName('content')[0];
+		this.contentCanvas = document.getElementsByClassName(this.time+'content')[0];
 		this.contentCanvasContext = this.contentCanvas.getContext('2d');
-		document.getElementsByClassName('zhizhen')[0].onclick = ()=>{
+	    this.contentCanvas.style.transform = 'rotate(' + this.rotate + 'deg)';
+	    
+		document.getElementsByClassName('turntable-canvas-zhizhen')[0].onclick = ()=>{
 			this.start();
 		}
 		

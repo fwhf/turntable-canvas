@@ -1,6 +1,15 @@
 # turntable-canvas
 canvas绘制转盘插件（可配置）
 
+demo在线演示地址
+```
+turntable-canvas.fwhf.xyz
+```  
+demo仓库地址
+```
+github.com/fwhf/turntable-canvas-demo
+```  
+
 Vue中使用方法及配置
 
 1.npm下载
