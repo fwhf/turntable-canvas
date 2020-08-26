@@ -90,7 +90,7 @@ export default {
 		      },
 		]
 	}
-	var turntableCanvas = new this.$turntableCanvas(this.$refs.turntableCanvas,TurntableCanvasConfig,(cb)=>{
+	new turntableCanvas(this.$refs.turntableCanvas,TurntableCanvasConfig,(cb)=>{
 			//此处放异步请求返回获得了哪个奖项
 			console.log('请求中...')
 			setTimeout(()=>{
@@ -103,5 +103,6 @@ export default {
 			console.log('返回值:',res);
 		})
 	}
+}
 </script>
 ```  
